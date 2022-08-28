@@ -76,6 +76,6 @@ int main() {
 			fwrite(&b, sizeof(struct MyStruct), 1, pt);
 			fwrite(&c, sizeof(struct MyStruct), 1, pt);
 		}
-	
+	fclose(pt);
 
 }
